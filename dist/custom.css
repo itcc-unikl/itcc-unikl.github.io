@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+body,
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background: #F0F2EB;
+    overflow-y: auto;
+    /*has to be scroll, not auto */
+    -webkit-overflow-scrolling: touch;
+}
+
+.ui.container {
+    -webkit-perspective: 0.1;
+}
+
+body,
+.ui.header,
+.ui.text.container {
+    font-family: 'Varela Round', sans-serif;
+}
+
+.ui.inverted.menu .top-menu.active.item,
+.ui.inverted.top-menu.menu {
+    background-color: #FA6900;
+    font-family: 'Varela Round', sans-serif;
+}
+
+td.event-position {
+    background: #F9FAFB;
+    font-weight: bold;
+}
+
+.comittee {
+    background-color: #EEECF0 !important;
+}
+
+tr.morning {
+    background-color: #F9FAFB;
+}
+
+tr.afternoon {
+    background-color: #F9FAFB;
+}
+
+tr.evening {
+    background-color: #F9FAFB;
+}
+
+@media screen and (max-width: 767px) {
+    .responsive-label:before {
+        content: ' ';
+        display: block;
+    }
+}
