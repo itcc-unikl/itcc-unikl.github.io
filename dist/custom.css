@@ -48,6 +48,10 @@ tr.evening {
     background-color: #F9FAFB;
 }
 
+p.tiny.text {
+    font-size: 0.857143em;
+}
+
 @media screen and (max-width: 767px) {
     .responsive-label:before {
         content: ' ';
